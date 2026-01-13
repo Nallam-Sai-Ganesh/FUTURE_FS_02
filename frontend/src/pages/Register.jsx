@@ -41,7 +41,7 @@ function Register() {
 
   return (
     <div className="p-6 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-center">Register</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center">Sign Up</h1>
 
       {error && <p className="text-red-600 mb-3">{error}</p>}
 
@@ -71,7 +71,7 @@ function Register() {
         />
 
         <button className="w-full bg-green-600 text-white py-2 rounded">
-          Register
+          Sign Up
         </button>
       </form>
 
