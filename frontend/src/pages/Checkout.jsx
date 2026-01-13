@@ -35,7 +35,7 @@ function Checkout() {
   try {
     const token = localStorage.getItem("token");
 
-    const res = await fetch("http://localhost:5000/api/orders", {
+    const res = await fetch("https://future-fs-02-5-63h2.onrender.com/api/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
