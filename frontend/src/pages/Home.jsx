@@ -8,7 +8,7 @@ function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/products")
+    fetch("https://future-fs-02-5-63h2.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
