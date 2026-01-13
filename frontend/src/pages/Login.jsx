@@ -91,7 +91,7 @@ function Login() {
       <p className="mt-4 text-center text-sm">
         Don’t have an account?{" "}
         <Link to="/register" className="text-blue-600 font-medium">
-          Register
+          Sign Up
         </Link>
       </p>
     </div>
