@@ -113,7 +113,7 @@ function Navbar() {
                 Login
               </Link>
               <Link to="/register" onClick={() => setMenuOpen(false)}>
-               Sign Up
+                Register
               </Link>
             </>
           )}
