@@ -1,9 +1,9 @@
 const products = [
   {
-    title: "ASUS Vivobook 16 Intel Core 13th Gen Laptop",
+    title: "ASUS Vivobook 16",
     price: 45000,
     category: "Electronics",
-    description: "High performance laptop",
+    description: "ASUS Vivobook 16 Intel Core 13th Gen Laptop",
     image: "/images/laptop.png",
   },
   {

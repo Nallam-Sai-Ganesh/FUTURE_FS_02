@@ -19,7 +19,7 @@ function Login() {
     setError("");
 
     try {
-      const res = await fetch("http://localhost:5000/api/auth/login", {
+      const res = await fetch("https://future-fs-02-5-63h2.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -91,7 +91,7 @@ function Login() {
       <p className="mt-4 text-center text-sm">
         Don’t have an account?{" "}
         <Link to="/register" className="text-blue-600 font-medium">
-          Register
+          Sign Up
         </Link>
       </p>
     </div>

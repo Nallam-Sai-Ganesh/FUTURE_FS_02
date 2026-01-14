@@ -12,7 +12,7 @@ function ProductDetails() {
   const [message, setMessage] = useState(""); // ✅ NEW
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/products/${id}`)
+    fetch(`https://future-fs-02-5-63h2.onrender.com/api/products/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);

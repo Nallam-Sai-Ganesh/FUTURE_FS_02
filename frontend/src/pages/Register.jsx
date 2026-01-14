@@ -19,7 +19,7 @@ function Register() {
     e.preventDefault();
     setError("");
 
-    const res = await fetch("http://localhost:5000/api/auth/register", {
+    const res = await fetch("https://future-fs-02-5-63h2.onrender.com/api/auth/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),
@@ -41,7 +41,7 @@ function Register() {
 
   return (
     <div className="p-6 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-center">Register</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center">Sign Up</h1>
 
       {error && <p className="text-red-600 mb-3">{error}</p>}
 
@@ -71,7 +71,7 @@ function Register() {
         />
 
         <button className="w-full bg-green-600 text-white py-2 rounded">
-          Register
+          Sign Up 
         </button>
       </form>
 

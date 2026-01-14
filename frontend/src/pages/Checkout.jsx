@@ -35,7 +35,7 @@ function Checkout() {
   try {
     const token = localStorage.getItem("token");
 
-    const res = await fetch("http://localhost:5000/api/orders", {
+    const res = await fetch("https://future-fs-02-5-63h2.onrender.com/api/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -94,6 +94,8 @@ function Checkout() {
         <button className="bg-green-600 text-white px-4 py-2 rounded">
           Place Order
         </button>
+        <p className="mb-4 font-medium">Only Cash on Delivery Available</p>
+
       </form>
     </div>
   );
